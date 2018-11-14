@@ -27,7 +27,6 @@ test('should map state and dispatch to props', () => {
 
 test('should map setUserName to dispatch INCREMENT action', () => {
   wrapper.props().increment();
-
   expect(store.dispatch).toHaveBeenCalledWith({
     type: 'counter/increment',
     payload: {

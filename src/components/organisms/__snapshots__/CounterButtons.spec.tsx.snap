@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render self with initial state 1`] = `
+<Fragment>
+  <WithStyles(Button)
+    color="primary"
+    data-test="increment-button"
+    onClick={[MockFunction]}
+    variant="contained"
+  >
+    Increment 3
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="secondary"
+    data-test="decrement-button"
+    onClick={[MockFunction]}
+    variant="contained"
+  >
+    Decrement 2
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="default"
+    data-test="async-increment-button"
+    onClick={[MockFunction]}
+    variant="contained"
+  >
+    Async Increment 5
+  </WithStyles(Button)>
+</Fragment>
+`;
